@@ -8,18 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <h1>Пошук картинок</h1>
-    </div>
+    <header>
+        <div class="search">
+          <input type="text" class="searchInput" id="searchInput" placeholder="Введіть ім'я картинки">
+          <button id="searchBtn" class="searchBtn">Пошук</button>
+        </div>
+      </header>
     
-    <div class="search-form">
-        <form>
-            
-        </form>
-    </div>
+      <div id="imageGallery"></div>
+
+      <button id="showMoreBtn" style="display: none;">Показати більше</button>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="script.js"></script>
     
-    <div class="footer">
-        &copy; 2023. Усі права не захищенно
-    </div>
 </body>
 </html>
+
